@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="">
+    <title>Contact</title>
+</head>
+<style>
+    .responsive {
+  height: 100%;
+  max-height: 500px;
+  width: auto;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.body{
+    background-color: rgba(211, 211, 211, 0.302);
+
+}
+.hero_img{
+    border-radius: 5px;
+
+}
+.hero_title{
+    position: absolute;
+    font-size: 25px;
+    top: 15%;
+    right: 30%;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.subtitle{
+    position: absolute;
+    top: 80px;
+    left: 35vw;
+    color: white;
+}
+.description{
+    position: absolute;
+    top: 130px;
+    left: 35vw;
+    color: white;
+}
+
+.sub {
+  background-color: black;
+  border-radius: 8px;
+  border-width: 0;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+}
+</style>
+<body>
+    <div class="hero_img" id="profile">
+        <center>
+            <br><br><br><br>
+            <img src="coffee.jpeg" alt="computer" class="responsive">
+        </center>
+        
+        <div class="hero_title subtitle">
+            <h5>Contact Mervis Mascarenhas</h5>
+        </div>
+        <div class="description">
+            <form >
+                <br><br>
+                <label for=""><span style="color: red;">*</span> Name: </label><br><br>
+                <input type="text" placeholder="First Name" required>
+                <input type="text" placeholder="Last Name" required>
+                <br><br>
+                <label for=""><span style="color: red;">*</span> Personal Email: </label><br><br>
+                <input type="email" placeholder="Email" required>
+                <br><br>
+                <label for=""><span style="color: red;">*</span> Phone: </label><br><br>
+                <input type="number" placeholder="Phone" minlength="10" required >
+                <br><br>
+                <label for="">Message: </label>
+                <br><br>
+                <textarea cols="48" rows="5" ></textarea>
+                <br><br>
+                <center>
+                    <input class="sub" type="submit" onsubmit="alert('Thank You Your feedback is recorded')" >
+                    <input class="sub" type="reset" ></center>
+            </form>
+        </div>  
+    </div>
+</body>
+</html>

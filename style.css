@@ -1,0 +1,29 @@
+.body{
+    padding: none;
+    margin: 5%;
+}
+.navigation ul {
+    font: bold 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    float: right;
+    display:block;
+    position: absolute;
+    right: 10px;
+    top: 25px;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+  }
+  .navigation li {
+    display: inline-block;
+  }
+  .navigation a {
+    border: none;
+    color: black;
+    top: 25px;
+    padding: 12px 20px;
+    text-decoration: none;
+  }
+  .navigation a:hover {
+    background-color: rgba(211, 211, 211, 0.388);
+  }
+  

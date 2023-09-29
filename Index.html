@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mervis Mascarenhas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+<!--FONT AWESOME-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!--GOOGLE FONTS-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet"> 
+</head>
+<style>
+.responsive {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.hero_img{
+    background-color: rgba(211, 211, 211, 0.302);
+    position: relative;
+    border-radius: 5px;
+}
+.hero_title{
+    position: absolute;
+    font-size: 25px;
+    top: 15%;
+    right: 30%;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.subtitle{
+    position: absolute;
+    top: 45%;
+    right: 10%;
+}
+.description{
+    position: absolute;
+    top: 65%;
+    left: 48%;
+}
+.work_container{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    background-color: beige;
+    padding: 20px;
+    width: 60vw;
+    border-radius: 5px;
+}
+
+.wno{
+    background-color: rgb(52, 30, 30);
+    color: white;
+    border-radius: 100%;
+    text-align: center;
+    width: 37px;
+}
+.wno,.wtitle{
+    display: inline-block;
+}
+.headline_style{
+    width: 30%;
+    height: 10px;
+    background-color: rgb(52, 30, 30);
+}
+.wstitle{
+    width: 60vw;
+}
+
+@media (max-width: 1160px){
+    .hero_title{
+    position: absolute;
+    font-size: 20px;
+    top: 70px;
+    left: 120px;
+    }
+    .subtitle{
+    position: absolute;
+    top: 200px;
+    left: 120px;
+    }
+    .description{
+    display: none;
+    }
+    .navigation{
+        display: none;
+        
+    }
+}  
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  background-color: #3d363510;
+  padding: 5vw;
+}
+
+.grid-container > div {
+  text-align: left;
+  width: 40vw;
+}  
+
+@media (max-width: 520px){
+    .hero_title{
+    font-size:4vw;
+    position: absolute;
+    top: 15vw;
+    left: 20vw;
+} 
+.subtitle{
+    font-size:5vw;
+    position: absolute;
+    top: 38vw;
+    left: 20vw;
+} 
+.hide{
+    display: none;
+}
+.grid-container {
+  position: relative;
+  display: block;
+}
+.grid-container > div {
+  text-align: left;
+  width: 90vw;
+} 
+}
+.footer{
+background:rgb(52, 30, 30);
+padding:30px 0px;
+font-family: 'Play', sans-serif;
+text-align:center;
+}
+
+.footer .row{
+width:100%;
+margin:1% 0%;
+padding:0.6% 0%;
+color:gray;
+font-size:0.8em;
+}
+
+.footer .row a{
+text-decoration:none;
+color:gray;
+transition:0.5s;
+}
+
+.footer .row a:hover{
+color:#fff;
+}
+
+.footer .row ul{
+width:100%;
+}
+
+.footer .row ul li{
+display:inline-block;
+margin:0px 30px;
+}
+
+.footer .row a i{
+font-size:2em;
+margin:0% 1%;
+}
+
+@media (max-width:720px){
+.footer{
+text-align:left;
+padding:5%;
+}
+.footer .row ul li{
+display:block;
+margin:10px 0px;
+text-align:left;
+}
+.footer .row a i{
+margin:0% 3%;
+}
+}
+</style>
+<body>
+    
+    <div class="hero_img" id="profile">
+        
+        <img src="computer.webp" alt="computer" class="responsive">
+        <br>
+        <div class="hero_title">
+            <h1>Mervis<br>Mascarenhas</h1>
+        </div>
+        <div class="hero_title subtitle">
+            <h5>Web Developer, Data Analyst</h5>
+        </div>
+        <div class="description">
+            <h4 style="font-size: small;">Highly skilled and motivated professional with a strong background in web development and data analysis. Equipped with exceptional communication and interpersonal skills, a proven track record of leadership, and a relentless work ethic. Proficient in problem-solving, time management, and fostering teamwork to achieve project goals. Adept at harnessing technical expertise to drive results and innovation in a collaborative work environment.</h4>
+        </div>  
+    </div>
+    <nav class="navigation">
+        <ul>
+          <li><a href="#profile">Profile</a></li>
+          <li><a href="#Work">Work</a></li>
+          <li><a href="#Achievements">Achievements</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <br><br><br><br><br><br><br><br>
+    <center><h3 id="Work" style="font-family: Georgia, 'Times New Roman', Times, serif;" >WORK EXPERIENCE</h3></center>
+    <br>
+    <div class="work_container"  style="left: 17vw;">
+        <div class="headline_style"></div>
+        <img  class="hide" style="top: 10px; float: right;" src="ibm_logo.png" alt="ibm_logo">
+        <span>
+            <h1 class="wno">1</h1>
+            <h1 class="wtitle">IBM SkillsBuild</h1> 
+        </span>
+        <h4>● Data Analysis  ● Machine Learning</h4>
+        <div class="wstitle">JUNE 2023 - JULY 2023 <br>
+            A project on plant disease detection using the following software tools: <br>
+            ● numpy
+            ● Pandas
+            ● Seaborn
+            ● Matplotlib
+            ● Ipywidgets
+            ● Sklearn
+            ● tensorflow
+            ● Keras.</div>
+    </div>
+    <br><br>
+    <div class="work_container" style="left: 17vw; ">
+        <div class="headline_style"></div>
+        <img class="hide" style="top: 10px; float: right;" src="prodigy_logo.jpeg" alt="ibm_logo">
+        <span>
+            <h1 class="wno">2</h1>
+            <h1 class="wtitle">Prodigy Infotech</h1> 
+        </span>
+        <h4>● Web Development  ● HTML ● CSS ● JS</h4>
+        <div class="wstitle"> SEPTEMBER 2023 - OCTOBER 2023<br>Designed and implemented responsive web applications using HTML, CSS, and JavaScript to deliver intuitive user experiences and enhance online functionality.</div>
+    </div>
+    <br><br><br>
+    <div id="Achievements" class="grid-container" >
+        <div>
+            <h3>PROJECTS</h3>
+            <ul>
+                <li><a href="https://github.com/MERVISMAS12/pedalon">Cycle Renting Website</a></li>
+                <li><a href="https://github.com/MERVISMAS12/NSS-website">NSS Website</a></li>
+                <li><a href="https://github.com/MERVISMAS12/PRODIGY_WD_01">KOI SMART</a></li>
+                <li><a href="https://github.com/MERVISMAS12/PRODIGY_WD_02">Stop Watch</a></li>
+                <li><a href="https://github.com/MERVISMAS12/PRODIGY_WD_05">Weather App</a></li>
+                <li><a href="https://github.com/MERVISMAS12/SOS">Statistical Optimizer for Students</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>POSITION OF RESPONSIBILITY</h3>
+            <ul>
+                <li>TEDX Curation Head (2023 - 2024)</li>
+                <li>Technical Editor for ConneXIEon (2023 - 2024)</li>
+                <li>IET Chairperson (2023 - 2024)</li>
+                <li>IET YP Member, Mumbai Local Network</li>
+                <li>Assistant Technical Secretary (2022 - 2023)</li>
+                <li>IET Head of Committee (2022 - 2023)</li>
+            </ul>
+        </div>
+      </div>
+
+      <footer>
+        <div class="footer">
+        <div class="row">
+        <a href="https://www.linkedin.com/in/mervis-mascarenhas-452225231/"><i class="fa fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/mervis_mascarenhas/"><i class="fa fa-instagram"></i></a>
+        <a href="mailto:mervismascarenhas12@gmail.com"><i class="fa fa-envelope"></i></a>
+        <a href="https://github.com/MERVISMAS12"><i class="fa fa-github"></i></a>
+        <a href="tel:7030834456"><i class="fa fa-phone"></i></a>
+        </div>
+        
+        <div class="row">
+        <ul>
+        <li><a href="contact.html">Contact Mervis Mascarenhas</a></li>
+        </ul>
+        </div>
+        
+        
+        </div>
+        </footer>
+
+</body>
+</html>
